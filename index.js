@@ -1,5 +1,5 @@
-const express = require('express');
-const dl = require('youtube-downloader-2');
+import express from 'express';
+import dl from 'youtube-downloader-2';
 
 const app = express();
 const PORT = 9000;
