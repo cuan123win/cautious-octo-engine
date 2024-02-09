@@ -6,6 +6,8 @@ const PORT = 9000;
 
 app.use(express.json());
 
+app.use(cors()); // Add this line to enable CORS for all routes
+
 app.get('/', async (req, res) => {
     const url = req.query.url;
     
