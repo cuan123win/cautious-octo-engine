@@ -1,6 +1,7 @@
 import express from 'express';
 import dl from 'youtube-downloader-2';
 
+import cors from 'cors';
 const app = express();
 const PORT = 9000;
 
